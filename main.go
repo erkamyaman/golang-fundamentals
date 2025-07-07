@@ -26,6 +26,17 @@ if score >= 90 {
 } else {
     fmt.Println("F")
 }
+
+day := "Monday"
+
+    switch day {
+    case "Monday":
+        fmt.Println("Start of the week")
+    case "Friday":
+        fmt.Println("End of the work week")
+    default:
+        fmt.Println("Midweek")
+    }
 }
 
 var name2 = "yaman"
