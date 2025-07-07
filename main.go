@@ -41,6 +41,20 @@ day := "Monday"
 	if length := len("Erkam"); length > 3 {
 		fmt.Println("Name is long enough")
 	}
+
+	// if err := doSomething(); err != nil {
+	// 	fmt.Println("Error occurred:", err)
+	// }
+
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
+
+	i := 0
+for i < 3 {
+    fmt.Println("i is", i)
+    i++
+}
 }
 
 var name2 = "yaman"
