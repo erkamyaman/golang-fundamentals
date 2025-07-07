@@ -37,6 +37,10 @@ day := "Monday"
     default:
         fmt.Println("Midweek")
     }
+
+	if length := len("Erkam"); length > 3 {
+		fmt.Println("Name is long enough")
+	}
 }
 
 var name2 = "yaman"
